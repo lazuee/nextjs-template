@@ -1,8 +1,7 @@
-import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import classNames from "classnames";
 import Head from "next/head";
 import { useRouter } from "next/router";
-import React, { ReactNode, useEffect, useState } from "react";
+import React, { ReactNode, useEffect } from "react";
 import { motion } from "framer-motion";
 
 import { useSettings } from "@/hooks/use-settings";
