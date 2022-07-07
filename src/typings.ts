@@ -1,3 +1,1 @@
-export type GitHub = {
-	stars: number;
-};
+export type GitHub = {};
