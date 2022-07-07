@@ -43,15 +43,7 @@ function NavItem({ currentPath, href, content }: { currentPath: string; href: st
 	);
 }
 
-export function Default({
-	children,
-	title,
-	heading,
-	description,
-	type,
-	image,
-	date,
-}: {
+export interface DefaultConfig {
 	children?: ReactNode;
 	title?: string;
 	heading?: ReactNode;
@@ -59,7 +51,9 @@ export function Default({
 	type?: string;
 	image?: string;
 	date?: string;
-}) {
+}
+
+export function Default({ children, title, heading, description, type, image, date }: DefaultConfig) {
 	const { maxWidth } = useSettings();
 
 	const router = useRouter();
