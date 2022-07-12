@@ -1,0 +1,18 @@
+<svg width="1280" height="720" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" preserveAspectRatio="none">
+      <defs>
+        <style type="text/css">
+          #holder text {
+            fill: rgba(255,255,255,0.66);
+            font-family: 'Raleway', sans-serif;
+            font-size: 80px;
+            font-weight: bold;
+          }
+        </style>
+      </defs>
+      <g id="holder">
+        <rect width="100%" height="100%" fill="#1b2231"></rect>
+        <g><text text-anchor="middle" x="50%" y="50%" dy=".3em">
+            NextJS Template
+          </text></g>
+      </g>
+    </svg>
