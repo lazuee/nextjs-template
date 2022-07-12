@@ -101,6 +101,7 @@ const nextConfig = {
 
 		config.plugins.push(MangleCSS());
 
+		/**
 		if (!dev && !isServer) {
 			// Replace React with Preact only in client production build
 			Object.assign(config.resolve.alias, {
@@ -109,6 +110,8 @@ const nextConfig = {
 				"react-dom": "preact/compat",
 			});
 		}
+		**/
+
 		return config;
 	},
 	async headers() {
